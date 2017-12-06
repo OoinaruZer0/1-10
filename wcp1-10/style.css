@@ -39,24 +39,25 @@ header {
 	color: #FAFAFA;
 }
 
-
-.mv-image {
+.main-visual {
 	width: 100%;
 	height: 650px;
+	background-image: url(img/mv.png);
+	background-size: cover;
 }
 
+
 .lorem-lpsum {
-	position: absolute;
-	top: 300px;
 	font-size: 64px;
 	color: #FAFAFA;
-	margin: 0 auto;
+	padding-top: 200px;
+	text-align: center;
 }
 
 .simply {
-	position: absolute;
-	top: 400px;
 	font-size: 20px;
 	color: #FAFAFA;
 	margin: 0 auto;
+	padding-top: 10px;
+	text-align: center;
 }
