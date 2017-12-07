@@ -218,3 +218,81 @@ header {
 	height: 90px;
 }
 
+.profile-blotting-out {
+	width: 100%;
+	background-color: #ECEFF1;
+}
+
+.profile {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.profile-text {
+	font-size: 32px;
+	color: #000000;
+	text-align: center;
+	padding-top: 90px;
+}
+
+.profile-underline-box {
+	width: 70px;
+	height: 8px;
+	border-bottom: 3px solid #EC715F;
+	margin: 0 auto;
+}
+
+.profile-text-long {
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+	padding-top: 30px;
+}
+
+.my-icon {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	margin-top: 30px;
+
+}
+
+.icon-box {
+	width: 512px;
+	background-color: #ECEFF1;
+	float: left;
+	text-align: center;
+}
+
+.myname-myskill-box {
+	width: 512px;
+	background-color: #ECEFF1;
+	float: left;
+}
+
+.add-space-profile {
+	width: 100%;
+	height: 90px;
+	background-color: #ECEFF1;
+}
+
+.myname {
+	font-size: 20px;
+	padding-top: 30px;
+}
+
+.myname-text {
+	font-size: 16px;
+	color: #000000;
+	padding-top: 5px;
+}
+
+.myskills {
+	font-size: 20px;
+	padding-top: 8px;
+}
+
+.myskills-text {
+	font-size: 16px;
+	color: 000000;
+}
