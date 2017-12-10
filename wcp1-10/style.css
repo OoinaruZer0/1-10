@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.clearfix::after{
+.clearfix::after {
 	content: "";
 	clear: both;
 	display: block;
@@ -33,7 +33,6 @@ header {
 .nav-list {
 	width: 512px;
 	float: right;
-	padding-top: 25px;
 }
 
 .nav-list-item {
@@ -42,6 +41,7 @@ header {
 	display: inline-block;
 	padding: 0 30px;
 	color: #FAFAFA;
+	line-height: 70px;
 }
 
 .main-visual {
@@ -69,6 +69,7 @@ header {
 .portfolio-blotting-out {
 	width: 100%;
 	background-color: #ECEFF1;
+	padding-bottom: 90px;
 }
 
 .portfolio {
@@ -140,16 +141,11 @@ header {
 	margin-top: 10px;
 }
 
-.add-space-portfolio {
-	width: 100%;
-	height: 90px;
-	background-color: #ECEFF1;
-}
-
 .feature {
 	width: 980px;
 	margin: 0 auto;
 	text-align: left;
+	padding-bottom: 90px;
 }
 
 .feature-text {
@@ -232,11 +228,6 @@ header {
 	text-align: center;
 }
 
-.add-space-feature {
-	width: 100%;
-	height: 90px;
-}
-
 .profile-blotting-out {
 	width: 100%;
 	background-color: #ECEFF1;
@@ -245,6 +236,7 @@ header {
 .profile {
 	width: 1024px;
 	margin: 0 auto;
+	padding-bottom: 90px;;
 }
 
 .profile-text {
@@ -289,12 +281,6 @@ header {
 	float: left;
 }
 
-.add-space-profile {
-	width: 100%;
-	height: 90px;
-	background-color: #ECEFF1;
-}
-
 .myname {
 	font-size: 20px;
 	padding-top: 30px;
@@ -319,6 +305,7 @@ header {
 .contact {
 	width: 800px;
 	margin: 0 auto;
+	padding-bottom: 90px;
 }
 
 .contact-text {
@@ -343,19 +330,22 @@ header {
 }
 
 .infor-social-box {
-	width: ;
 	margin: 0 auto;
+	width: 800px;
 }
 
 .information-box {
 	width: 400px;
 	float: left;
+	margin: 0 auto;
 	text-align: center;
+
 }
 
 .social-button-box-large {
 	width: 400px;
 	height: 168px;
+	margin: 0 auto;
 	float: left;
 }
 .social-button-box {
@@ -395,8 +385,6 @@ header {
 	font-size: 20px;
 	padding-top: 30px;
 	text-align: left;
-
-
 }
 
 .sns-icons {
@@ -404,22 +392,17 @@ header {
 	text-align: center;
 }
 
-.add-space-contact {
-	width: 100%;
-	height: 90px;
-}
-
 .footer {
 	width: 100%;
 	height: 60px;
 	text-align: center;
-	padding-top: 20px;
 	background-color: #EC715F;
 }
 
 .footer-text {
 	font-size: 16px;
 	color: #FAFAFA;
+	line-height: 60px;
 }
 
 .fa-hamburger {
@@ -429,12 +412,12 @@ header {
 @media screen and (max-width:767px) {
 
 	#site-box {
-		width: 90%;
-		margin: 0 5%;
+		width: 100%;
 	}
 
+
 	.header-box {
-		width: 100%;
+		width: 90%;
 	}
 
 	.header-blotting-out {
@@ -444,6 +427,10 @@ header {
 	.logo {
 		width: 130px;
 		height: 50px;
+	}
+
+	.nav-list {
+		width: 100%;
 	}
 
 	.nav-list-item {
@@ -460,7 +447,7 @@ header {
 		display: inline-block;
 		position: absolute;
 		top: 5px;
-		left: 314.59px;
+		left: 324.59px;
 	}
 
 	.main-visual {
@@ -485,7 +472,7 @@ header {
     }
 
     .portfolio {
-    	width: 100%;
+    	width: 90%;
     }
 
     .portfolio-text {
@@ -552,7 +539,7 @@ header {
 	}
 
 	.feature {
-		width: 100%;
+		width: 90%;
 	}
 
 	.feature-text {
@@ -590,16 +577,12 @@ header {
 	}
 
 	.all-strength-box {
-		width: 100%;
-	}
-
-	.add-space-feature {
-		width: 100%;
-		height: 90px;
+		width: 90%;
 	}
 
 	.profile {
-		width: 100%;
+		width: 90%;
+		margin: 0 auto;
 	}
 
 	.profile-text {
@@ -620,12 +603,14 @@ header {
 	}
 
 	.icon-box {
-		width: 100%;
+		width: 90%;
+		margin: 0 auto;
 		float: none;
 	}
 
 	.myname-myskill-box {
-		width: 100%;
+		width: 90%;
+		margin: 0 auto;
 		float: none;
 	}
 
@@ -657,13 +642,9 @@ header {
 		margin-top: 5px;
 	}
 
-	.add-space-profile {
-		width: 100%;
-		height: 90px;
-	}
 
 	.contact {
-		width: 100%;
+		width: 90%;
 	}
 
 	.contact-text {
@@ -686,19 +667,20 @@ header {
 	}
 
 	.information-box-large {
-		width: 100%;
+		width: 90%;
 		text-align: center;
 	}
 
 	.infor-social-box {
-		text-align: center;
+  		text-align: center;
+  		width: 100%;
 	}
 
 	.information-box {
-		width: 100%;
+		width: 45%;
 		float: none;
-		margin: 0 auto;
 		text-align: center;
+
 	}
 
 	.mail {
@@ -729,11 +711,16 @@ header {
 	}
 
 	.social-buttom-box {
+		width: 45%;
 		text-align: center;
+		margin: 0 auto;
 	}
 
-	.social-buttom-box-large {
+	.social-button-box-large {
+		width: 100%;
 		text-align: center;
+		margin: 0 auto;
+		float: none;
 	}
 
 
